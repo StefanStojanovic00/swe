@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\SS\\Desktop\\eksterni\\swe projekat\\swe sa bootsom full\\si.22.68.where_is_my_train\\Aplikacija\\Aplikacija.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\SS\\Desktop\\eksterni\\swe projekat\\swe sa bootsom full\\si.22.68.where_is_my_train\\Aplikacija\\Aplikacija.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SS\\Desktop\\eksterni\\swe projekat\\swe sa bootsom full\\si.22.68.where_is_my_train\\Aplikacija\\Aplikacija.csproj",
+        "projectName": "Aplikacija",
+        "projectPath": "C:\\Users\\SS\\Desktop\\eksterni\\swe projekat\\swe sa bootsom full\\si.22.68.where_is_my_train\\Aplikacija\\Aplikacija.csproj",
+        "packagesPath": "C:\\Users\\SS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SS\\Desktop\\eksterni\\swe projekat\\swe sa bootsom full\\si.22.68.where_is_my_train\\Aplikacija\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
